@@ -6,6 +6,20 @@ _Create and run a GitHub Actions workflow._
 
 </header>
 
+ welcome-workflow
+## Step 4: Merge your workflow file
+
+_You're now able to write and run an Actions workflow! :sparkles:_
+
+Merge your changes so the action will be a part of the `main` branch.
+
+### :keyboard: Activity: Merge your workflow file
+
+1. In your repo, click on the **Pull requests** tab.
+1. Click on the pull request you created in step 1.
+1. Click **Merge pull request**, then click **Confirm merge**.
+1. Optionally, click **Delete branch** to delete your `welcome-workflow` branch.
+
 ## Step 5: Trigger the workflow
 
 _You've now added a fully functioning workflow to your repository! :smile:_
@@ -23,6 +37,7 @@ The shell script in the workflow will run whenever a new pull request is opened.
 1. In the **Pull requests** tab, create a pull request that will merge `test-workflow` into `main`.
 1. Watch the workflow running in the checks section of the pull request.
 1. Notice the comment that the workflow adds to the pull request.
+ main
 1. Wait about 20 seconds, then refresh this page (the one you're following instructions from). Another workflow will run and will replace the contents of this README file with instructions for the next step.
 
 <footer>
